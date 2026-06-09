@@ -32,3 +32,13 @@ Menu do sistema:
 11 - Ordenar histórico por tempo estimado
 12 - Exibir estatísticas
 0  - Sair
+
+## Como Compilar (Windows — MinGW)
+
+Abra o terminal na pasta do projeto e execute:
+
+    bash gcc main.c atendimento.c fila.c lista.c arvore.c hash.c ordenacao.c -o sistema
+
+## Como Executar
+
+    bash sistema.exe
