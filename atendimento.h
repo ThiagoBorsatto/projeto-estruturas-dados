@@ -4,7 +4,7 @@
 // =============================================
 // Estrutura principal de um atendimento
 // =============================================
-typedef struct {
+typedef struct Atendimento{
     int id;
     char cliente[50];
     char categoria[30];
