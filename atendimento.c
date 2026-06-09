@@ -30,7 +30,7 @@ Atendimento cadastrar_atendimento() {
     printf("  Cliente: ");
     scanf(" %49[^\n]", a.cliente);
 
-    printf("  Categoria (ex: Hardware, Software, Rede): ");
+    printf("  Categoria: ");
     scanf(" %29[^\n]", a.categoria);
 
     printf("  Prioridade (1=Baixa, 2=Media, 3=Alta): ");
